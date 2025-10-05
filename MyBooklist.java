@@ -44,7 +44,6 @@ public class MyBookList {
         // 5.) Change the author of "Java Programming" to "Jane Smith". Display the details again for the book.
         b4.setAuthor("Jane Smith");
         b4.displayDetails();
-        System.out.println("***************************");
 
 
         // 6.) Create an array of Book objects to store all the books you created. Loop through the array and display the title of the books published after 2010.
