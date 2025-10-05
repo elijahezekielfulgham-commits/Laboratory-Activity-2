@@ -24,7 +24,7 @@ public class MyBookList {
         b3.displayDetails();
         b4.displayDetails();
         b5.displayDetails();
-        System.out.println("***************************");
+        System.out.println("\n***************************");
 
 
         // 3.) Change the current page of "Rich Dad Poor Dad" to 50 and "Atomic Habits" to 100 using the changePage method. Display the details again for the two books.
@@ -32,13 +32,13 @@ public class MyBookList {
         b3.changePage(100);
         b1.displayDetails();
         b3.displayDetails();
-        System.out.println("***************************");
+        System.out.println("\n***************************");
 
 
         // 4.) Change the current page of your favorite book to any page number you like. Display the details again for your favorite book.
         b5.changePage(368);
         b5.displayDetails();
-        System.out.println("***************************");
+        System.out.println("\n***************************");
 
 
         // 5.) Change the author of "Java Programming" to "Jane Smith". Display the details again for the book.
@@ -48,7 +48,7 @@ public class MyBookList {
 
         // 6.) Create an array of Book objects to store all the books you created. Loop through the array and display the title of the books published after 2010.
         Book[] books = {b1, b2, b3, b4, b5};
-        System.out.println(" ********BOOKS PUBLISHED AFTER 2010:********");
+        System.out.println("\n********BOOKS PUBLISHED AFTER 2010:********");
         for (Book b : books) {
             if (b.getYearPublished() > 2010) {
                 System.out.println(b.getTitle());
